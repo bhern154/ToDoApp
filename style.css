@@ -90,17 +90,18 @@ textarea:focus, input:focus{
 
 @media only screen and (max-width: 1200px) {
     #container {
-        margin-top: 5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
     }
     h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     li{
-        font-size: 15px;
+        font-size: 13px;
     }
     #new-todo{
-        font-size: 15px; 
+        font-size: 13px; 
     }
   }
