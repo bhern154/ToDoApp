@@ -64,7 +64,6 @@ p{
     padding-right: 18px;
     font-size: 60px;
     color: white;
-    line-height:70px;
     font-weight: 400;
 }
 #addItem{
@@ -74,6 +73,7 @@ p{
 }
 #new-todo{
     height: 70px;
+    line-height: 70px;
     width: 100%;
     border: solid 3px rgb(241, 241, 241);
     border-radius: 10px 0px 0px 10px;
@@ -100,8 +100,16 @@ textarea:focus, input:focus{
     }
     li{
         font-size: 13px;
+        height: 55px;
+        line-height: 55px;
+    }
+    button{
+        height: 55px;
+        line-height: 55px;
     }
     #new-todo{
         font-size: 13px; 
+        height: 50px;
+        line-height: 55px;
     }
   }
